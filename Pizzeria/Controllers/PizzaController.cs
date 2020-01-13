@@ -18,10 +18,26 @@ namespace Pizzeria.Controllers
             _context = context;
         }
 
+        
+        /// <summary>
+        /// metoda zwraca dane na temat
+        /// </summary>
+        /// <returns>
+        /// zwraca liste studentow
+        /// </returns>
+       
+        
+            
         [HttpGet]
         public IActionResult GetPizzas() {
             return Ok(_context.Pizza.ToList());
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idPizza"></param>
+        /// <returns></returns>
 
         [HttpGet("{idPizza:int}")]
         public IActionResult GetPizza(int idPizza) {

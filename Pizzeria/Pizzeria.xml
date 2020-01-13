@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pizzeria</name>
+    </assembly>
+    <members>
+        <member name="M:Pizzeria.Controllers.PizzaController.GetPizzas">
+            <summary>
+            metoda zwraca dane na temat
+            </summary>
+            <returns>
+            zwraca liste studentow
+            </returns>
+        </member>
+        <member name="M:Pizzeria.Controllers.PizzaController.GetPizza(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="idPizza"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
