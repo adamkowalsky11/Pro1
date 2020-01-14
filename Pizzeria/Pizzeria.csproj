@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\s16788\Desktop\Pro1-master\Pizzeria\Pizzeria.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\Adam\source\repos\Pro1\Pizzeria\Pizzeria.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
